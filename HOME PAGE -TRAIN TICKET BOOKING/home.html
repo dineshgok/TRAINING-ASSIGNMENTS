@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<head>
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class='checkbtn'>
+        <span>&#9776;</span>
+    </label>
+ <label class="logo">Train Ticket Booking</label>
+ <ul>
+     <li><a href="home.html">home</a></li>
+     <li><a href="Irctc_complete/Irctc.html">Freight Business Portal</a></li>
+    
+     <li><a href="pnr.html">PNR status</a></li>
+     <li><a href="con-example.html">contact us</a></li>
+     <li><a id="id" href="login.html">Sign in</a></li>
+ </ul>
+</nav>
+    <section class="book_section">
+    <div class="booking_container">
+    <div class="title">BOOK TICKET</div><br><br>
+    <div class="content">
+    <form action="availability.html">
+    <div class="book">
+            <div class="booking">
+              <span class="book_label">FROM</span>
+              <input class="input_station" type="text" list="station"  placeholder="&#10148;" required/>
+                <datalist id="station">
+                    <option>NEW DELHI - NDLS</option>
+                    <option>MGR CHENNAI CTL - MAS</option>
+                    <option>HOWRAH JN - HWH</option>
+                    <option>SECUNDERABAD JN - SC</option>
+                    <option>PUNE JN - PUNE</option>
+                    <option>CHENNAI EGMORE - MS</option>
+                    <option>MUMBAI CENTRAL - MMCT</option>
+                    <option>DELHI - DLI</option>
+                    <option>MADURAI JN - MDU</option>
+                    <option>TIRUCHCHIRAPALI - TPJ</option>
+                </datalist>
+            </div>
+            <div class="booking">
+              <span class="book_label">DATE</span>
+              <input  class="input_station" type="DATE" required/>
+            </div>
+            <div class="booking">
+              <span class="book_label">TO</span>
+              <input class="input_station" type="text" list="station1" placeholder="&#10162;" required/>
+                <datalist id="station1">
+                    <option>NEW DELHI - NDLS</option>
+                    <option>MGR CHENNAI CTL - MAS</option>
+                    <option>HOWRAH JN - HWH</option>
+                    <option>SECUNDERABAD JN - SC</option>
+                    <option>PUNE JN - PUNE</option>
+                    <option>CHENNAI EGMORE - MS</option>
+                    <option>MUMBAI CENTRAL - MMCT</option>
+                    <option>DELHI - DLI</option>
+                    <option>MADURAI JN - MDU</option>
+                    <option>TIRUCHCHIRAPALI - TPJ</option>
+                </datalist>
+            </div>
+            <div class="booking">
+              <span class="book_label">ALL CLASSES</span>
+              <input class="input_station" type="text" list="station2" placeholder="&#9783;" required/>
+                <datalist id="station2">
+                    <option>Anubhuti Class (EA)</option>
+                    <option>AC First Class (1A)</option>
+                    <option>Exec. Chair Car (EC)</option>
+                    <option>AC 2 Tier (2A)</option>
+                    <option>First Class (FC)</option>
+                    <option>AC 3 Tier (3A)</option>
+                    <option>Sleeper (SL)</option>
+                    <option>Second Sitting (2S)</option>
+                </datalist>
+            </div>
+            <div class="booking">
+              <span class="book_label">GENERAL</span>
+              <input  class="input_station" type="text" list="station3" placeholder="&#9745;" required />
+                <datalist id="station3">
+                    <option>GENERAL</option>
+                    <option>TATKAL</option>
+                    <option>PREMIUM TATKAL</option>
+                    <option>LOWER BERTH/SR.CITIZEN</option>
+                    <option>DIVYAANG</option>
+                    <option>LADIES</option>
+                    
+                </datalist>
+            </div>
+        </div>
+            <div class="check">
+              <div>
+                <input type="checkbox" >&nbsp;
+                <span class="concession">Railway Pass Concession</span>
+            </div> 
+            <div>
+                <input class="concession_box" type="checkbox" >&nbsp;
+                <span class="concession" >Flexible Date</span>
+            </div> 
+            </div>
+           <div class="check1">
+              <div> 
+                &nbsp;&nbsp;<input class="concession_box1"  type="checkbox" >&nbsp;
+                <span class="concession">Train With Available Berth</span>
+              </div> 
+              <div>
+               &nbsp;&nbsp; <input type="checkbox" >&nbsp;
+                <span class="concession">Season Ticket</span>
+             </div>
+            </div>
+               <br><br>
+            <div class="button">
+                <input class="button1" type="submit" value="SEARCH">
+              </div>
+        </form>
+        </div>
+        </div>
+    </section>
+    <section class="services">
+      <h1 class="services_title">OUR SERVICES</h1><br><br>
+      <div class="service_container">
+        <div class="our_services">
+              <img src="https://cdn2.iconfinder.com/data/icons/citizens/2048/6147_-_Restaurant_Service-128.png" width="50%">
+              <h3 class="service_name">E-CATERING</h3>
+        </div>
+        <div class="our_services">
+          <img src="https://cdn3.iconfinder.com/data/icons/vol-6/128/train-128.png" width="50%">
+          <h3 class="service_name">TOURIST TRAIN</h3>
+        </div>
+        <div class="our_services">
+          <img src="https://cdn3.iconfinder.com/data/icons/business-round-set-1/128/FLIGHT-128.png" width="50%">
+          <h3 class="service_name">FLIGHT</h3>
+        </div>
+      </div>
+        <div class="service_container">
+        <div class="our_services">
+           <img src="https://cdn0.iconfinder.com/data/icons/photography-and-graphic-design/110/Icons__photos-128.png" width="50%">
+            <h3 class="service_name">GALLERY</h3>
+        </div>
+        <div class="our_services">
+          <img src="https://cdn1.iconfinder.com/data/icons/transportation-4/512/bus-128.png" width="50%">
+          <h3 class="service_name">BUS</h3>
+        </div>
+        <div class="our_services">
+          <img src="https://cdn0.iconfinder.com/data/icons/travel-volume-1-2/256/01-128.png" width="50%">
+          <h3 class="service_name">HOTEL</h3>
+        </div>
+      </div>
+</section>
+<br><br>
+<section class="holiday_packages">
+          <h1 class="holiday_title">HOLIDAY</h1><br><br>
+          <div class="packages_container">
+            <div class="packages">
+                <img src="https://images.unsplash.com/photo-1599518333229-8d0681f62323?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1haGFyYWphJTIwZXhwcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="310px" height="200px" alt="will update soon">
+                <h3 class="holiday_name">ROYAL TRAIN</h3>
+                <p class="holiday_details">Best deals in royal train packages,
+                   handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China,
+                   Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages 
+                   are inclusive of sightseeing, meals, visa charges and overseas medical 
+                  insurance to give you hassle-free and memorable experience.</p>
+                <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+            </div>
+      <div class="packages">
+            <img src="https://images.unsplash.com/photo-1573259353568-5d8ab9cbc84f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG91cmlzdCUyMHBsYWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="310px" height="200px" alt="will update soon">
+            <h3  class="holiday_name">INTERNATIONAL PACKAGES</h3>
+            <p class="holiday_details">Best deals in International packages,
+              handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China,
+              Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages 
+              are inclusive of sightseeing, meals, visa charges and overseas medical 
+              insurance to give you hassle-free and memorable experience.</p>
+              <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+      </div>
+      <div class="packages">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="310px" height="200px" alt="will update soon"> 
+            <h3  class="holiday_name">DOMESTIC PACKAGES</h3>
+            <p class="holiday_details">Best deals in Domestic  packages,
+              handpicked by IRCTC,for Tamilnadu, Kerala, Goa,
+              Punjab etc.The packages are inclusive of sightseeing, meals, visa charges,medical 
+              insurance to give you a hassle-free and memorable experience.</p><br><br>
+            <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+      </div>
+    </div>
+   <div class="packages_container">
+      <div class="packages">
+          <img src="https://images.unsplash.com/photo-1596737045913-8240c99f3550?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHJhaWwlMjB0b3VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="310px" height="200px" alt="will update soon">
+          <h3  class="holiday_name">RAIL TOUR</h3>
+          <p class="holiday_details">Best deals in Rail Tour packages,
+           handpicked by IRCTC,for Tamilnadu, Kerala, Goa,
+           Punjab etc.The packages are inclusive of sightseeing, meals, visa charges,medical 
+           insurance to give you a hassle-free and memorable experience.</p><br>
+           <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+       </div>
+       <div class="packages">
+          <img src="https://media.gettyimages.com/photos/brihadeeswarar-temple-thanjavur-india-the-world-heritage-sites-picture-id602263068?k=6&m=602263068&s=612x612&w=0&h=aJYSxd4agGVimy-pKs8aWClGla4xiajs-ydmv8G9fq4=" width="310px" height="200px" alt="will update soon">
+          <h3  class="holiday_name">TEMPLE TOUR</h3>
+          <p class="holiday_details">Best deals in Temple Tour packages,
+          handpicked by IRCTC,for Tamilnadu, Kerala, Goa,
+          Punjab etc.The packages are inclusive of sightseeing, meals, visa charges,medical 
+          insurance to give you a hassle-free and memorable experience.</p><br>
+          <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+       </div>
+       <div class="packages">
+          <img src="https://images.unsplash.com/photo-1610178009236-02461f18b272?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGlsbCUyMHN0YXRpb24lMjBpbiUyMGluZGlhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="310px" height="200px" alt="will update soon"> 
+          <h3  class="holiday_name">HILL STATION TOUR</h3>
+          <p class="holiday_details">Best deals in Hill Station Tour packages,
+          handpicked by IRCTC,for Tamilnadu, Kerala, Goa,
+          Punjab etc.The packages are inclusive of sightseeing, meals, visa charges, 
+          insurance to give you a hassle-free and memorable experience.</p>
+          <a href="#" class="pack"> &#8921;MORE DETAILS&#8920;</a>
+       </div>
+ </div>
+</section>
+<br>
+    <footer>
+        <div class="footer-header">
+    <h4>Get Connected with us on social networks</h4>
+               <div> 
+               <i class="fab fa-facebook-f facebook"></i>
+        <i class="fab fa-youtube youtube"></i>
+        <i class="fab fa-instagram insta"></i>
+        <i class="fab fa-linkedin-in link"></i>
+        <i class="fab fa-telegram tele"></i>
+        <i class="fab fa-pinterest pin"></i>
+        <i class="fab fa-tumblr tum"></i>
+        <i class="fab fa-twitter twitter"></i>
+    </div>
+    </div>
+
+    <div class="footer-footer">
+        <div>© Copyright Train Ticket Booking 2022 Site | Terms of Use | Privacy Policy</div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
